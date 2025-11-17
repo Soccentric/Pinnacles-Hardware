@@ -6,6 +6,8 @@
 
 This repository contains the complete design schematics, Bill of Materials (BOM), and technical documentation for our Pinnacles-Hardware platform - an NXP i.MX 93/95 based solution engineered for power-constrained edge applications. We're excited to open-source these designs to empower developers worldwide to create energy-efficient, intelligent IoT devices that push the boundaries of what's possible at the edge.
 
+![Pinnacles-Hardware Platform](Pinnacles-Hardware.jpg)
+
 ### 🎯 Our Mission
 Soccentric is committed to advancing edge computing through open collaboration. By sharing our Pinnacles platform, we strive to:
 - **Enable Sustainable Computing**: Provide power-efficient hardware templates for eco-friendly devices
