@@ -1,5 +1,29 @@
 # Pinnacles-Hardware
 
+## 🌟 Welcome to Pinnacles-Hardware - Open Source Edge Computing Platform
+
+**Power-Efficient Innovation for the IoT Era**
+
+This repository contains the complete design schematics, Bill of Materials (BOM), and technical documentation for our Pinnacles-Hardware platform - an NXP i.MX 93/95 based solution engineered for power-constrained edge applications. We're excited to open-source these designs to empower developers worldwide to create energy-efficient, intelligent IoT devices that push the boundaries of what's possible at the edge.
+
+### 🎯 Our Mission
+Soccentric is committed to advancing edge computing through open collaboration. By sharing our Pinnacles platform, we strive to:
+- **Enable Sustainable Computing**: Provide power-efficient hardware templates for eco-friendly devices
+- **Accelerate IoT Development**: Offer proven designs that reduce time-to-market
+- **Foster Audio Innovation**: Support the creation of next-generation audio and multimedia devices
+- **Build Inclusive Technology**: Make advanced computing accessible to all developers
+
+### 📋 What's Included
+- **Full Hardware Designs**: Complete schematics for i.MX 93/95 based platforms
+- **Comprehensive BOM**: Detailed component specifications with power optimization notes
+- **Audio-Focused Interfaces**: Specialized audio and multimedia connectivity designs
+- **Power Management Schematics**: Advanced power delivery and battery management circuits
+- **Thermal Design**: Heat dissipation solutions for compact form factors
+- **EMI/EMC Considerations**: Design guidelines for electromagnetic compatibility
+
+**Author:** Sandesh Ghimire  
+**©** Sandesh@soccentric.com
+
 ## Overview
 NXP i.MX 93/95 SOM based hardware platform optimized for power-efficient edge computing with integrated AI acceleration. These System-on-Modules combine high-performance processing with rich multimedia capabilities, ideal for industrial IoT, automotive, and consumer applications requiring low power consumption.
 
@@ -66,3 +90,71 @@ All platforms have:
 - **Functional Safety**: Support for safety-critical applications
 - **Extended Temperature**: Operation in extreme environmental conditions
 - **Rich Ecosystem**: Extensive partner network and development resources
+
+## 🚀 Getting Started
+
+### Prerequisites
+- NXP i.MX 93/95 System-on-Module
+- PCB assembly equipment
+- Audio testing tools (for audio-focused designs)
+- MCUXpresso SDK
+
+### Quick Start
+1. **Review Schematics**: Examine the main board design in `schematics/`
+2. **BOM Verification**: Check component power ratings in `bom/`
+3. **PCB Fabrication**: Use manufacturing files in `pcb/`
+4. **Power Testing**: Validate power delivery circuits first
+5. **Audio Calibration**: Test audio interfaces with provided scripts
+
+### Development Environment
+- **MCUXpresso IDE**: NXP's integrated development environment
+- **Yocto Project**: For custom Linux distributions
+- **eIQ Toolkit**: AI development for edge applications
+- **FreeRTOS**: Real-time operating system support
+
+## 🤝 Contributing
+
+Help us build the future of power-efficient computing!
+
+### Ways to Contribute
+- **Power Optimization**: Share power consumption improvements
+- **Audio Enhancements**: Contribute audio processing improvements
+- **Safety Features**: Add functional safety enhancements
+- **Documentation**: Expand guides for different use cases
+- **Testing**: Provide test results and validation data
+
+### Development Workflow
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/power-optimization`)
+3. Implement and test your changes
+4. Document power/thermal impacts
+5. Submit a Pull Request with detailed testing results
+
+### Guidelines
+- Include power consumption measurements
+- Test thermal performance thoroughly
+- Validate EMI/EMC compliance
+- Follow NXP's i.MX design guidelines
+
+## 📄 License
+
+CERN Open Hardware Licence Version 2 - Permissive. Full license text in [LICENSE](LICENSE).
+
+This permissive license allows commercial use and derivative works with attribution requirements.
+
+## 📞 Support & Community
+
+- **Issues**: [GitHub Issues](https://github.com/soccentric/Pinnacles-Hardware/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/soccentric/Pinnacles-Hardware/discussions)
+- **NXP Community**: Connect with i.MX developers worldwide
+- **Email**: hardware@soccentric.com for partnerships
+
+## 🙏 Acknowledgments
+
+- NXP Semiconductors for the i.MX platform
+- Our community of power-efficient computing advocates
+- The open hardware movement enabling global collaboration
+
+---
+
+**Efficient by Design, Powerful by Nature - Soccentric**
